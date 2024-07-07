@@ -150,3 +150,27 @@
 }
   
   /* About section style end */
+
+  /* Skill section style start */
+  .skill{
+    width: 1140px;
+    height: 550px;
+    background-color: #FFF8F3;
+    margin: 100px auto;
+    text-align: center;
+    padding: 130px 155px;
+    
+  }
+  .skill-items{
+    display: flex;
+    justify-content: space-around;
+  }
+  .skill-item{
+    text-align: left;
+    padding: 30px;
+    background: #ddd;
+    margin: 0 10px;
+    
+
+  }
+  /* Skill section style end */
