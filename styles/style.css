@@ -6,24 +6,34 @@
     font-variation-settings:
       "wdth" 100;
   }
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
   body{
     max-width: 1600px;
+    margin: 0 auto;
   }
 
+  header{
+    
+  }
   .nav-logo-r{
     color: #FD6E0A;
   }
   .nav-logo{
     font-size: 45px;
     font-weight: 800;
+    padding-left: 100px;
   }
 
   .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #FFF8F3;
     
-  }
+   }
   .navbar li{
     list-style: none;
     margin-right: 30px;
@@ -39,6 +49,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 200px;
 
   }
 
@@ -56,44 +67,60 @@
   /* Banner styles */
   .banner{
     display: flex;
-    /* padding: 80px 260px; */
+    padding-top: 80px;
+    /* margin: 0 auto; */
     /* max-width: 1600px; */
-  }
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    }
   .btn-secondary{
     color: #FD6E0A;
     /* background-color: #FD6E0A; */
     padding: 8px 15px;
     border: 1px solid #FD6E0A;
     border-radius: 5px;
-    margin-left: 20px;
+    margin-left: 30px;
 
   }
-  .banner-text{
-    padding-left: 200px;
+  .banner-text {
+    padding-left: 110px;
+    width: 976px;
+    height: 355px;
     /* width: 50%; */
-  }
+}
   .banner-text h3{
     font-size: 45px;
     font-weight: 600;
     color: #474747;
+    padding: 30px 0;
   }
   .banner-text h1{
     font-size: 85px;
     font-weight: bold;
     color: #181818;
+    padding: 30px 0;
   }
   .banner-text p{
     font-size: 18px;
     font-weight: 400;
     color: #757575;
+    padding: 30px 0;
   }
   .navbar-banner-bg{
     background-color: #FFF8F3;
   }
 .banner-image{
-    /* width: 50%; */
-    background-image: url(../images/header_bg.png);
-    background-position: top left;
-    background-repeat: no-repeat;
-
+   
+    /* background-image: url(../images/header_bg.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: right bottom; */
+    /* padding-right: 355px; */
+    /* display: flex; */
+   
+  }
+  .banner-image img {
+    
+    /* position: relative; */
+    /* left: 320px; */
 }
